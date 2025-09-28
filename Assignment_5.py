@@ -12,7 +12,7 @@ for name in student_names:
     for marks in student_marks:
         student_dict[name] = marks
 
-name = input("Enter the Student's name: ")
+name = input("Enter the Student's name: ").capitalize()
 if name in student_dict:
     print(f"{name}'s marks: {student_dict[name]}")
 else:
